@@ -34,6 +34,7 @@ const power = function(base, power) {
 };
 
 const factorial = function(max) {
+  if (max === 0) return 1;
 	let fac = 1;
   for ( i = max; i > 0; i--) {
     fac *= i;
